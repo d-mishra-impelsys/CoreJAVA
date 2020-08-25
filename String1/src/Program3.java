@@ -5,8 +5,7 @@ public class Program3
 	{
 		// Why separate String Constant Pool in heap Memory ? 
 		String s1="JAVA is a",s2="object oriented",s3="language." ;
-		String str="JAVA is a object oriented language.";  // creating anonymous string objects internally
-		//" language."
+		String str=s1+" "+s2+" "+s3;  // creating anonymous string objects internally
 		System.out.println(str);
 		// Just find how many string objects created internally in the heap.
 		

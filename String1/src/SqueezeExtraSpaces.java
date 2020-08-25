@@ -11,7 +11,7 @@ public class SqueezeExtraSpaces
 		for(String word: words)
 		{
 			if(word.equals("")==false)
-				result=result+" "+word;				
+				result=result+word+" ";				
 		}
 		System.out.println("Result String:"+result);
 	}

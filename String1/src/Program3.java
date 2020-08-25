@@ -7,7 +7,6 @@ public class Program3
 		String s1="JAVA is a",s2="object oriented",s3="language." ;
 		String str="JAVA is a object oriented language.";  // creating anonymous string objects internally
 		//" language."
-		System.gc();
 		System.out.println(str);
 		// Just find how many string objects created internally in the heap.
 		

@@ -22,12 +22,12 @@ public class Program2
 	 String s1="FB";
 	 String s2="Ea";
 	 System.out.println(s1 == s2 ? "Objects are same":"Objects are Different");
-     System.out.println(s1.equals(s2) ? "Objects values are same":"Objects values are Different");
+         System.out.println(s1.equals(s2) ? "Objects values are same":"Objects values are Different");
 	 System.out.println(s1.hashCode()==s2.hashCode() ? "Objects hash values are same":"Objects hash values are Different");
 	 System.out.println(s1.hashCode()+":"+s2.hashCode());
 	 
 	     System.out.println("****************Object hashcode and tostring******************");
-	     Object obj1=new Object();
+	         Object obj1=new Object();
 		 Object obj2=new Object();
 		 System.out.println(obj1 == obj2 ? "Objects are same":"Objects are Different");
 		 System.out.println(obj1.equals(obj2) ? "Objects values are same":"Objects values are Different");

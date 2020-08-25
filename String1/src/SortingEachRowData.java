@@ -18,7 +18,7 @@ public class SortingEachRowData
 	}
 	
 	//Arrays.sort(teams);  //cannot sort multi diemnsional array
-	System.out.println("*********************************");
+	System.out.println("************Sorted Output*********************");
 	for(String[] team: teams)
 	{
 		Arrays.sort(team); 

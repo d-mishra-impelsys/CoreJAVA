@@ -9,13 +9,13 @@ public class Program1
 		
 		String s1="abc";
 		String s2=new String("abc");
-		//String s33=new String("abc");
-		//System.out.println(s1 == s2 ? "Objects are same":"Objects are Different");
-	//	System.out.println(s1.equals(s2) ? "Objects values are same":"Objects values are Different");
-		//System.out.println(s1.hashCode()==s2.hashCode() ? "Objects hash values are same":"Objects hash values are Different");
-		//System.out.println("Hashcode:"+s1.hashCode()+":"+s2.hashCode());
 		
-	    System.out.println("*************************************************");
+		System.out.println(s1 == s2 ? "Objects are same":"Objects are Different");
+		System.out.println(s1.equals(s2) ? "Objects values are same":"Objects values are Different");
+		System.out.println(s1.hashCode()==s2.hashCode() ? "Objects hash values are same":"Objects hash values are Different");
+		System.out.println("Hashcode:"+s1.hashCode()+":"+s2.hashCode());
+		
+	       System.out.println("*************************************************");
 		String s3="abc";
 		String s4="abc";
 		System.out.println(s3 == s4 ? "Objects are same":"Objects are Different");

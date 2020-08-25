@@ -13,7 +13,8 @@ public class SqueezeExtraSpaces
 			if(word.equals("")==false)
 				result=result+word+" ";				
 		}
-		System.out.println("Result String:"+result);
+		result=result.trim();
+		System.out.println("Result String:<"+result+">");
 	}
 
 }

@@ -21,7 +21,7 @@ public class SortingNames
 	      }
 	      System.out.println(Arrays.toString(names));
 	      
-	      
+	       System.out.println("************************Alternative way****************");
 	    Arrays.sort(names);
 	    System.out.println(Arrays.toString(names));
 	}
